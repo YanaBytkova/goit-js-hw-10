@@ -3,11 +3,8 @@ import { fetchBreeds } from "./js/cat-api.js";
 import fetchCatByBreed from "./js/cat-api.js";
 
 
-const selectList = document.querySelector('.breed-select');
-const messageLoader = document.querySelector('.loader');
-const messageError = document.querySelector('.error');
-const catContainer = document.querySelector('.cat-info');
-selectList.addEventListener("select", fetchBreeds);
+
+
 // selectList.addEventListener("change", setOutput);
 // function setOutput(event) {
 //     const breedId = event.currentTarget.value;
