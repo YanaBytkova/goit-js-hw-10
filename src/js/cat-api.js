@@ -3,7 +3,7 @@ import axios from "axios";
 import SlimSelect from 'slim-select';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 axios.defaults.headers.common["x-api-key"] = API_KEY;
-
+let catInfo = [];
 const selectList = document.querySelector('.breed-select');
 const catContainer = document.querySelector('.cat-info');
 const messageLoader = document.querySelector('.loader');
